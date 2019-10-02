@@ -8,15 +8,35 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh; 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin-bottom: 30px;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+.App-ship-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.App-ship-btn {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 120px;
+  margin: 10px;
+  background-color: #2f4f4f;
+  border-radius: 5px;
 }
